@@ -1,0 +1,99 @@
+{
+  "invoice_number": "INV-2024-001",
+  "invoice_date": "2024-01-15",
+  "due_date": "2024-02-15",
+  "invoice_type": "invoice",
+  "currency": "INR",
+  "seller": {
+    "party_id": "SELLER001",
+    "party_name": "ABC Manufacturing Company",
+    "legal_name": "ABC Manufacturing Company Pvt Ltd",
+    "tax_number": "29ABCDE1234F2Z5",
+    "registration_number": "REG123456",
+    "email": "sales@abc.com",
+    "phone": "+91-9876543210",
+    "address": "123 Business Street, Industrial Area",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "IN",
+    "postal_code": "400001",
+    "bank_details": {
+      "bank_name": "State Bank of India",
+      "account_number": "1234567890",
+      "ifsc_code": "SBIN0000123",
+      "account_holder": "ABC Manufacturing Company"
+    }
+  },
+  "buyer": {
+    "party_id": "BUYER001",
+    "party_name": "XYZ Trading Corporation",
+    "legal_name": "XYZ Trading Corporation Ltd",
+    "tax_number": "29XYZGH5678I9J0",
+    "registration_number": "REG654321",
+    "email": "procurement@xyz.com",
+    "phone": "+91-8765432109",
+    "address": "456 Trade Road, Commercial Complex",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "IN",
+    "postal_code": "411001",
+    "bank_details": {
+      "bank_name": "ICICI Bank",
+      "account_number": "9876543210",
+      "ifsc_code": "ICIC0000456",
+      "account_holder": "XYZ Trading Corporation"
+    }
+  },
+  "items": [
+    {
+      "item_id": "ITEM001",
+      "item_code": "SKU-001",
+      "item_name": "Aluminum Widget",
+      "description": "High-quality aluminum widget with precision engineering",
+      "quantity": 10,
+      "unit_of_measure": "pieces",
+      "unit_price": 100.00,
+      "tax_rate": 18,
+      "additional_data": {
+        "batch_no": "BATCH-2024-001",
+        "warranty": "24 months"
+      }
+    },
+    {
+      "item_id": "ITEM002",
+      "item_code": "SKU-002",
+      "item_name": "Technical Consultation",
+      "description": "Professional technical consulting and support service",
+      "quantity": 5,
+      "unit_of_measure": "hours",
+      "unit_price": 500.00,
+      "tax_rate": 18,
+      "additional_data": {
+        "consultant_name": "John Smith",
+        "project_code": "PROJ-2024-001"
+      }
+    },
+    {
+      "item_id": "ITEM003",
+      "item_code": "SKU-003",
+      "item_name": "Installation Service",
+      "description": "On-site installation and setup service",
+      "quantity": 1,
+      "unit_of_measure": "service",
+      "unit_price": 2000.00,
+      "tax_rate": 18,
+      "additional_data": {
+        "service_date": "2024-02-01",
+        "location": "Pune"
+      }
+    }
+  ],
+  "payment_terms": "Net 30 days from invoice date",
+  "notes": "Thank you for your business. Payment should be made within 30 days from the invoice date. Please mention invoice number in the payment reference.",
+  "custom_fields": {
+    "purchase_order_number": "PO-2024-001",
+    "customer_reference": "REF-001",
+    "project_name": "Infrastructure Development",
+    "cost_center": "CC-001"
+  }
+}
